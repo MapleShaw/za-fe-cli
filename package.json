@@ -1,0 +1,22 @@
+{
+  "name": "za-fe-cli",
+  "version": "1.0.0",
+  "description": "弱鸡版脚手架",
+  "main": "index.js",
+  "bin": {
+    "za": "./bin/za.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MapleShaw",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "cli-table": "^0.3.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "ora": "^2.0.0"
+  }
+}
